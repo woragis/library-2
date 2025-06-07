@@ -1,0 +1,9 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:woragis/library-2-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:woragis/library-2-frontend.git
+[submodule "desktop"]
+	path = desktop
+	url = git@github.com:woragis/library-2-desktop.git
