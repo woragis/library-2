@@ -2,16 +2,23 @@ package com.woragis.library.util;
 
 import java.util.Scanner;
 
+import com.woragis.library.book.controller.BookController;
+import com.woragis.library.user.controller.UserController;
+
 public class MenuHelper {
     public static void run() {
         Scanner scanner = new Scanner(System.in);
+        UserController userController = new UserController();
+        BookController bookController = new BookController();
+
         int option;
         do {
-            System.out.println("--- Library Menu ---");
+            System.out.println("\n--- Library Menu ---");
             System.out.println("1. Register User");
-            System.out.println("2. Add Book");
-            System.out.println("3. Lend Book");
-            System.out.println("4. Return Book");
+            System.out.println("2. List Users");
+            System.out.println("3. Add Book");
+            System.out.println("4. List Books");
+            System.out.println("5. Find Book by ISBN");
             System.out.println("0. Exit");
             System.out.print("Choose an option: ");
             option = scanner.nextInt();
@@ -19,16 +26,19 @@ public class MenuHelper {
 
             switch (option) {
                 case 1:
-                    System.out.println("[Register User feature here]");
+                    userController.registerUser(scanner);
                     break;
                 case 2:
-                    System.out.println("[Add Book feature here]");
+                    userController.listUsers();
                     break;
                 case 3:
-                    System.out.println("[Lend Book feature here]");
+                    bookController.addBook(scanner);
                     break;
                 case 4:
-                    System.out.println("[Return Book feature here]");
+                    bookController.listBooks();
+                    break;
+                case 5:
+                    bookController.findBookByIsbn(scanner);
                     break;
                 case 0:
                     System.out.println("Goodbye!");
