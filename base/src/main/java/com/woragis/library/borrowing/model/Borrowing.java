@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Borrowing {
     public int id;
-    public int exemplarId;
+    public int physicalCopyId;
     public int userId;
     public int employeeId;
     public Date lendingDate;
