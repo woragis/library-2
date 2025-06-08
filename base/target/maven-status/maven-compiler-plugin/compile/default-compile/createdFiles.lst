@@ -1,0 +1,16 @@
+com/woragis/library/borrowing/controller/BorrowingController.class
+com/woragis/library/physicalcopy/model/PhysicalCopy.class
+com/woragis/library/shared/enums/BookStatus.class
+com/woragis/library/book/service/BookService.class
+com/woragis/library/user/controller/UserController.class
+com/woragis/library/user/service/UserService.class
+com/woragis/library/user/model/User.class
+com/woragis/library/physicalcopy/service/PhysicalCopyService.class
+com/woragis/library/book/model/Book.class
+com/woragis/library/book/controller/BookController.class
+com/woragis/library/user/model/UserRole.class
+com/woragis/library/util/MenuHelper.class
+com/woragis/library/borrowing/model/Borrowing.class
+com/woragis/library/borrowing/service/BorrowingService.class
+com/woragis/library/Main.class
+com/woragis/library/physicalcopy/controller/PhysicalCopyController.class

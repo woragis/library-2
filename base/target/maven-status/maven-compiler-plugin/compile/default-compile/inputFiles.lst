@@ -1,0 +1,16 @@
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/Main.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/book/controller/BookController.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/book/model/Book.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/book/service/BookService.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/borrowing/controller/BorrowingController.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/borrowing/model/Borrowing.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/borrowing/service/BorrowingService.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/physicalcopy/controller/PhysicalCopyController.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/physicalcopy/model/PhysicalCopy.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/physicalcopy/service/PhysicalCopyService.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/shared/enums/BookStatus.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/user/controller/UserController.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/user/model/User.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/user/model/UserRole.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/user/service/UserService.java
+/home/woragis/dev/unipe-faculdade/projects/library-2/base/src/main/java/com/woragis/library/util/MenuHelper.java
