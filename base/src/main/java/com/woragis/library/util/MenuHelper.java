@@ -47,19 +47,19 @@ public class MenuHelper {
             scanner.nextLine();
 
             switch (option) {
-                case 1 -> userController.registerUser(scanner);
-                case 2 -> userController.loginUser(scanner);
-                case 3 -> userController.listUsers();
-                case 4 -> userController.changeUserRole(scanner);
-                case 5 -> bookController.addBook(scanner);
-                case 6 -> bookController.listBooks();
-                case 7 -> bookController.findBookByIsbn(scanner);
-                case 8 -> copyController.addCopies(scanner);
-                case 9 -> copyController.listCopies(scanner);
-                case 10 -> copyController.updateCopyStatus(scanner);
-                case 11 -> borrowingController.lendBook(scanner);
-                case 12 -> borrowingController.returnBook(scanner);
-                case 13 -> borrowingController.listBorrowings();
+                case 1 -> userController.registerUser(scanner); // Register a new user, UserController.java
+                case 2 -> userController.loginUser(scanner); // Login an existing user, UserController.java
+                case 3 -> userController.listUsers(); // List all users, UserController.java
+                case 4 -> userController.changeUserRole(scanner); // Change user role, UserController.java
+                case 5 -> bookController.addBook(scanner); // Add a new book, BookController.java
+                case 6 -> bookController.listBooks(); // List all books, BookController.java
+                case 7 -> bookController.findBookByIsbn(scanner); // Find a book by ISBN, BookController.java
+                case 8 -> copyController.addCopies(scanner); // Add physical copies of a book, PhysicalCopyController.java
+                case 9 -> copyController.listCopies(scanner); // List physical copies by book ID, PhysicalCopyController.java
+                case 10 -> copyController.updateCopyStatus(scanner); // Update the status of a physical copy, PhysicalCopyController.java
+                case 11 -> borrowingController.lendBook(scanner); // Lend a book to a user, BorrowingController.java
+                case 12 -> borrowingController.returnBook(scanner); // Return a borrowed book, BorrowingController.java
+                case 13 -> borrowingController.listBorrowings(); // List all borrowings, BorrowingController.java
                 case 0 -> System.out.println("Goodbye!");
                 default -> System.out.println("Invalid option.");
             }
